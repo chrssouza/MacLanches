@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9Fts0EP6orCqJejDAnIaZI68sL6e8GWMY92zlArmUZg=",
+  "Hash": "1bhR471eI6x4qGIC9ICwEbe3V2XO/Ap1OmlT2jK9DnE=",
   "Source": "MacLanches",
   "BasePath": "_content/MacLanches",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\images\\carousel11.jpg",
+      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel11.jpg",
       "SourceId": "MacLanches",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\",
       "BasePath": "_content/MacLanches",
-      "RelativePath": "images/carousel11.jpg",
+      "RelativePath": "img/carousel11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\carousel11.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\carousel11.jpg"
     },
     {
-      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\images\\carousel12.jpg",
+      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel12.jpg",
       "SourceId": "MacLanches",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\",
       "BasePath": "_content/MacLanches",
-      "RelativePath": "images/carousel12.jpg",
+      "RelativePath": "img/carousel12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\carousel12.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\carousel12.jpg"
     },
     {
-      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\images\\carousel13.jpg",
+      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel13.jpg",
       "SourceId": "MacLanches",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\",
       "BasePath": "_content/MacLanches",
-      "RelativePath": "images/carousel13.jpg",
+      "RelativePath": "img/carousel13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,7 +133,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\carousel13.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\carousel13.jpg"
     },
     {
       "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\js\\site.js",
