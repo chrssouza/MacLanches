@@ -15,12 +15,12 @@ namespace MacLanches.Models
 
         [Required(ErrorMessage = "A descrição do lanche deve ser informada")]
         [Display(Name = "Descrição do Lanche")]
-        [StringLength(20, MinimumLength = 200, ErrorMessage = "A {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
+        [StringLength(200, MinimumLength = 20, ErrorMessage = "A {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
         public string  DescricaoCurta { get; set; }
 
         [Required(ErrorMessage = "A descrição detalhada do lanche deve ser informada")]
         [Display(Name = "Descrição detalhada do Lanche")]
-        [StringLength(20, MinimumLength = 200, ErrorMessage = "A {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
+        [StringLength(200, MinimumLength = 20, ErrorMessage = "A {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
         public string DescricaoDetalhada { get; set; }
 
         [Required(ErrorMessage = "Informe o preço do lanche")]
