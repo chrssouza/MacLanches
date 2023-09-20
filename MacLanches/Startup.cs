@@ -1,4 +1,6 @@
 ﻿using MacLanches.Context;
+using MacLanches.Repositories;
+using MacLanches.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace MacLanches;
@@ -16,6 +18,9 @@ public class Startup
     {
         services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddTransient<ILancheRepository, LancheRepository>();
+        services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
         services.AddControllersWithViews();
     }
