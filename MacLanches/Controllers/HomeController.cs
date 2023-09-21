@@ -8,7 +8,7 @@ namespace MacLanches.Controllers
     {
       
         public IActionResult Index()
-        {
+        {           
             return View();
         }
 
