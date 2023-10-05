@@ -1,4 +1,5 @@
 ﻿using MacLanches.Context;
+using MacLanches.Models;
 using MacLanches.Repositories;
 using MacLanches.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,7 @@ public class Startup
         services.AddTransient<ILancheRepository, LancheRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        services.AddScoped(c => CarrinhoCompra.GetCarrinho(c));
 
         services.AddMemoryCache();
         services.AddSession();
