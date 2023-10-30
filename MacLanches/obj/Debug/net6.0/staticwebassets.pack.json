@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\img\\Full-Cart-icon.png"
+    },
+    {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel11.jpg",
       "PackagePath": "staticwebassets\\img\\carousel11.jpg"
     },
@@ -23,6 +27,18 @@
     {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel13.jpg",
       "PackagePath": "staticwebassets\\img\\carousel13.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\cart-5-16.ico",
+      "PackagePath": "staticwebassets\\img\\cart-5-16.ico"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\delete.png",
+      "PackagePath": "staticwebassets\\img\\delete.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\remove.png",
+      "PackagePath": "staticwebassets\\img\\remove.png"
     },
     {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\js\\site.js",

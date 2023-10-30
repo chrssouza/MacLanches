@@ -24,7 +24,7 @@ namespace MacLanches.Controllers
 
             var carrinhoCompraVm = new CarrinhoCompraViewModel
             {
-                CarrinhoCompra= _carrinhoCompra,
+                CarrinhoCompra = _carrinhoCompra,
                 CarrinhoCompraTotal = _carrinhoCompra.GetCarrinhoCompraTotal(),
             };
 
