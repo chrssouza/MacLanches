@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\Envelope-icon24.png",
+      "PackagePath": "staticwebassets\\img\\Envelope-icon24.png"
+    },
+    {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\Full-Cart-icon.png",
       "PackagePath": "staticwebassets\\img\\Full-Cart-icon.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\Home-iconred.png",
+      "PackagePath": "staticwebassets\\img\\Home-iconred.png"
     },
     {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel11.jpg",
@@ -35,6 +43,14 @@
     {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\delete.png",
       "PackagePath": "staticwebassets\\img\\delete.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\img\\faleconosco1.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\phone-app-icon.png",
+      "PackagePath": "staticwebassets\\img\\phone-app-icon.png"
     },
     {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\remove.png",
