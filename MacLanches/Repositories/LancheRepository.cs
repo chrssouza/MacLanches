@@ -13,11 +13,11 @@ namespace MacLanches.Repositories
             _context = context;
         }
 
-        public IEnumerable<Lanche> Lanches => _context.Lanches.Include(c => c.Categria);
+        public IEnumerable<Lanche> Lanches => _context.Lanches.Include(c => c.Categoria);
 
         public IEnumerable<Lanche> LanchesPreferidos => _context.Lanches
                                   .Where(l => l.LanchePreferido)
-                                  .Include(c => c.Categria);
+                                  .Include(c => c.Categoria);
 
         public Lanche GetLancheById(int lancheId)
         {
