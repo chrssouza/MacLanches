@@ -37,6 +37,22 @@
       "PackagePath": "staticwebassets\\img\\carousel13.jpg"
     },
     {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel14.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel14.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel15.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel15.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel16.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel16.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\carousel17.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel17.jpg"
+    },
+    {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\cart-5-16.ico",
       "PackagePath": "staticwebassets\\img\\cart-5-16.ico"
     },
@@ -49,8 +65,68 @@
       "PackagePath": "staticwebassets\\img\\faleconosco1.jpg"
     },
     {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\lanchemac2.png",
+      "PackagePath": "staticwebassets\\img\\lanchemac2.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\lanchevegano1.jpg",
+      "PackagePath": "staticwebassets\\img\\lanchevegano1.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-caixa-de-selecção-seleccionada-2-48.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-caixa-de-selecção-seleccionada-2-48.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-comida-fast-food-street-food-18-50.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-comida-fast-food-street-food-18-50.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-comida-natural-50.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-comida-natural-50.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-comida-natural-80.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-comida-natural-80.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-desconto-48.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-desconto-48.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-email-open-50.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-email-open-50.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-get-dressed-32.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-get-dressed-32.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-get-dressed-50.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-get-dressed-50.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-hamburger-32.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-hamburger-32.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-hamburger-58.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-hamburger-58.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-love-50.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-love-50.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\leiaute\\icons8-speaker-phone-50.png",
+      "PackagePath": "staticwebassets\\img\\leiaute\\icons8-speaker-phone-50.png"
+    },
+    {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\phone-app-icon.png",
       "PackagePath": "staticwebassets\\img\\phone-app-icon.png"
+    },
+    {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\remove.ico",
+      "PackagePath": "staticwebassets\\img\\remove.ico"
     },
     {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\remove.png",
