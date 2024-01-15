@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wJe2/QTHIspiopd98nLo3Votb9J3iem/4QfYP06mFl0=",
+  "Hash": "DiMOhnD8THMfoR5VsYZNQ1t9/iPWkuxjBEu0L2eY2AE=",
   "Source": "MacLanches",
   "BasePath": "_content/MacLanches",
   "Mode": "Default",
@@ -604,6 +604,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\leiaute\\icons8-speaker-phone-50.png"
+    },
+    {
+      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\login_48.png",
+      "SourceId": "MacLanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\",
+      "BasePath": "_content/MacLanches",
+      "RelativePath": "img/login_48.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\login_48.png"
     },
     {
       "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\phone-app-icon.png",

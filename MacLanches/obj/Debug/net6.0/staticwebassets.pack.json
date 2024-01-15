@@ -121,6 +121,10 @@
       "PackagePath": "staticwebassets\\img\\leiaute\\icons8-speaker-phone-50.png"
     },
     {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\login_48.png",
+      "PackagePath": "staticwebassets\\img\\login_48.png"
+    },
+    {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\phone-app-icon.png",
       "PackagePath": "staticwebassets\\img\\phone-app-icon.png"
     },
