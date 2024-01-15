@@ -129,6 +129,10 @@
       "PackagePath": "staticwebassets\\img\\phone-app-icon.png"
     },
     {
+      "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\registro1.jpg",
+      "PackagePath": "staticwebassets\\img\\registro1.jpg"
+    },
+    {
       "Id": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\remove.ico",
       "PackagePath": "staticwebassets\\img\\remove.ico"
     },

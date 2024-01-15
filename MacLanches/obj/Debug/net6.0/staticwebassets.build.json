@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DiMOhnD8THMfoR5VsYZNQ1t9/iPWkuxjBEu0L2eY2AE=",
+  "Hash": "Zl5QRtVRQz5rHDYH8NxM+UrhJ3x6jWmyWO0+xe5PiME=",
   "Source": "MacLanches",
   "BasePath": "_content/MacLanches",
   "Mode": "Default",
@@ -642,6 +642,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\phone-app-icon.png"
+    },
+    {
+      "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\registro1.jpg",
+      "SourceId": "MacLanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\",
+      "BasePath": "_content/MacLanches",
+      "RelativePath": "img/registro1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\registro1.jpg"
     },
     {
       "Identity": "C:\\Projetos\\MacLanches\\MacLanches\\wwwroot\\img\\remove.ico",
