@@ -1,4 +1,6 @@
-﻿using MacLanches.Context;
+﻿using MacLanches.Areas.Admin.Services;
+using MacLanches.Areas.Admin.Services.Interfaces;
+using MacLanches.Context;
 using MacLanches.Models;
 using MacLanches.Repositories;
 using MacLanches.Repositories.Interfaces;
@@ -31,6 +33,7 @@ public class Startup
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+        services.AddScoped<IRelatorioVendasService, RelatorioVendasService>();
 
         services.AddAuthorization(options =>
         {
