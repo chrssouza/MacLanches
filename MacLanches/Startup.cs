@@ -5,6 +5,7 @@ using MacLanches.Repositories.Interfaces;
 using MacLanches.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReflectionIT.Mvc.Paging;
 
 namespace MacLanches;
 public class Startup
@@ -47,6 +48,12 @@ public class Startup
         services.AddSession();
 
         services.AddControllersWithViews();
+
+        services.AddPaging(options =>
+        {
+            options.ViewName = "Bootstrap4";
+            options.PageParameterName = "pageindex";
+        });
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
