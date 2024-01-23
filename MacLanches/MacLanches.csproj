@@ -25,6 +25,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Views\Categorias\" />
     <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\img\produtos\" />
   </ItemGroup>
 
 </Project>
