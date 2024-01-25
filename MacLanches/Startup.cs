@@ -36,6 +36,7 @@ public class Startup
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
         services.AddScoped<IRelatorioVendasService, RelatorioVendasService>();
+        services.AddScoped<IGraficoVendasService, GraficoVendasService>();
 
         services.AddAuthorization(options =>
         {
