@@ -20,7 +20,7 @@ namespace MacLanches.Areas.Admin.Services
             var lanches = (from pd in _context.PedidosDetalhes
                            join l in _context.Lanches on pd.LancheId equals l.LancheId
                            where pd.Pedido.PedidoEnviado >= data
-                           group pd by new {pd.LancheId, l.Nome, pd.Quantidade}
+                           group pd by new {pd.LancheId, l.Nome}
                            into g
                            select new
                            {
