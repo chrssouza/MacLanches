@@ -76,6 +76,7 @@ CriarPerfisUsuarios(app);
 app.UseAuthentication();
 app.UseAuthorization();
 
+#pragma warning disable
 app.UseEndpoints(endpoints =>
 {
 
