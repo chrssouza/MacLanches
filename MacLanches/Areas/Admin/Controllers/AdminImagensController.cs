@@ -38,77 +38,87 @@ namespace MacLanches.Areas.Admin.Controllers
                 return View(ViewData);
             }
 
-            // soma a quantidade de bytes dos arquivos enviados
-            long size = files.Sum(f => f.Length);
-
-            var filePathsName = new List<string>();
-
-            // monta o caminho onde vai salvar
-            var filePath = Path.Combine(_hostingEnvironment.WebRootPath, _myConfig.NomePastaImagensProdutos);
-
-            // percore cada arquivo que quero enviar e verifica se são do tipo que quero receber
-            foreach (var formFile in files)
+            try
             {
-                if (formFile.FileName.Contains(".jpg")
-                    || formFile.FileName.Contains(".gif")
-                    || formFile.FileName.Contains(".png"))
+                long size = files.Sum(f => f.Length);
+                var filePathsName = new List<string>();
+                var filePath = Path.Combine(_hostingEnvironment.WebRootPath,
+                       _myConfig.NomePastaImagensProdutos);
+
+                foreach (var formFile in files)
                 {
-                    // monta o nome do arquivo completo
-                    var fileNameWithPath = string.Concat(filePath, "\\", formFile.FileName);
-
-                    // atribui a variável para poder informar na view
-                    filePathsName.Add(fileNameWithPath);
-
-                    // método para copiar o arquivo para o servidor
-                    using (var stream = new FileStream(fileNameWithPath, FileMode.Create))
+                    if (formFile.FileName.Contains(".jpg") || formFile.FileName.Contains(".gif") ||
+                             formFile.FileName.Contains(".png"))
                     {
-                        await formFile.CopyToAsync(stream);
+                        var fileNameWithPath = string.Concat(filePath, "\\", formFile.FileName);
+
+                        filePathsName.Add(fileNameWithPath);
+
+                        using (var stream = new FileStream(fileNameWithPath, FileMode.Create))
+                        {
+                            await formFile.CopyToAsync(stream);
+                        }
                     }
                 }
+                // monta a ViewData que será exibida na view como resultado do envio 
+                ViewData["Resultado"] = $"{files.Count} arquivos foram enviados ao servidor, " +
+                 $"com tamanho total de : {size} bytes";
+
+                ViewBag.Arquivos = filePathsName;
+
+                // retorna a viewdata
+                return View(ViewData);
             }
-            ViewData["Resultado"] = $"{files.Count} arquivos foram enviados ao servidor, " +
-                                    $"com tamanho total de: {size} bytes";
+            catch (Exception ex)
+            {
+                ViewData["Erro"] = $"Erro : {ex.Message}";
+                return View(ViewData);
+            }
 
-            ViewBag.Arquivos = filePathsName;
-
-            return View(ViewData);
         }
-
         public IActionResult GetImagens()
         {
             FileManagerModel model = new FileManagerModel();
 
-            var userImagensPath = Path.Combine(_hostingEnvironment.WebRootPath,
-                _myConfig.NomePastaImagensProdutos);
-
-            DirectoryInfo dir = new DirectoryInfo(userImagensPath);
-
-            FileInfo[] files = dir.GetFiles();
-
-            model.PathImagensProduto = _myConfig.NomePastaImagensProdutos;
-
-            if (files.Length == 0)
+            try
             {
-                ViewData["Erro"] = $"Nenhum arquivo encontrado na pasta {userImagensPath}";
+                var userImagesPath = Path.Combine(_hostingEnvironment.WebRootPath,
+                     _myConfig.NomePastaImagensProdutos);
+
+                DirectoryInfo dir = new DirectoryInfo(userImagesPath);
+                FileInfo[] files = dir.GetFiles();
+                model.PathImagensProduto = _myConfig.NomePastaImagensProdutos;
+
+                if (files.Length == 0)
+                {
+                    ViewData["Erro"] = $"Nenhum arquivo encontrado na pasta {userImagesPath}";
+                }
+                model.Files = files;
             }
-
-            model.Files = files;
-
+            catch (Exception ex)
+            {
+                ViewData["Erro"] = $"Erro : {ex.Message}";
+            }
             return View(model);
         }
 
-        public IActionResult DeleteFile(string fname)
+        public IActionResult Deletefile(string fname)
         {
-            string deletarImg = Path.Combine(_hostingEnvironment.WebRootPath, _myConfig.NomePastaImagensProdutos
-                + "\\", fname);
-
-            if (System.IO.File.Exists(deletarImg))
+            try
             {
-                System.IO.File.Delete(deletarImg);
+                string _imagemDeleta = Path.Combine(_hostingEnvironment.WebRootPath,
+                _myConfig.NomePastaImagensProdutos + "\\", fname);
 
-                ViewData["Deletado"] = $"Arquivo(s) {deletarImg} deletado com sucesso";
+                if ((System.IO.File.Exists(_imagemDeleta)))
+                {
+                    System.IO.File.Delete(_imagemDeleta);
+                    ViewData["Deletado"] = $"Arquivo(s) {_imagemDeleta} deletado com sucesso";
+                }
             }
-
+            catch (Exception ex)
+            {
+                ViewData["Erro"] = $"Erro : {ex.Message}";
+            }
             return View("index");
         }
     }
